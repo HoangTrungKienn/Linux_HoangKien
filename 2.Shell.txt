@@ -1,0 +1,19 @@
+- Shell là môi trường mà ta có thể chạy các lệnh, các chương trình, các đoạn mã script, diễn giải các lệnh đó, dịch mã người dùng thực hiện thành mã máy
+	cat /etc/shells : tìm ra tất cả các shell có sẵn trên hệ thống.
+	echo $0 : xem loại shel đang sử dụng
+
++) bash shell
+- Sử dụng biến: Trong script của shell, dùng dấu $ trước tên biến để lấy nội dung của biến.
+	    Hiển thị nội dung của biến, dùng lệnh echo
+
++) Lệnh cd
+	cd tenthumuc
+	cd .. : thoát ra thư mục con, trở về thư mục cha trực tiếp của nó
+	cd ../../.. : thoát nhiều lần
+	cd - : trở lại thư mục vừa rời đi
+   Lệnh pwd: xem thư mục đang làm việc
+
++) Xem các lệnh đã gõ: 
+Dùng lệnh history
+	Thực hiện lệnh đã làm dòng thứ n: !n
+

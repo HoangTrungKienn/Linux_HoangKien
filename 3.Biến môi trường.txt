@@ -1,0 +1,13 @@
+- Biến môi trường:
++ Một biến môi trường có tên là một dãy chữ cái và nhận một giá trị nhất định, giá trị có thể là số, chữ, tên file, thiết bị hay một kiểu dữ liệu nào đó, các biến không được trùng nhau.
+
+
+- Lệnh man: Tra cứu các option của các lệnh 
+	man + command
+	+ shift g để đi tới cuối trang trợ giúp lệnh, g để đi tới đầu trang trợ giúp lệnh, q để thoát trang trợ giúp lệnh.
+
+- Ba loại streams trong Linux:
+	+ Stdin, Stdout, và Stdderr là ba luồng tiêu chuẩn được thiết lập khi một lệnh Linux được thực thi. Chúng được gọi là các open file và hệ thống gán cho mỗi file này một con số gọi là file descriptor (stdin:0, stdout:1, stderr:2) 
+	Trong máy tính, luồng là thứ có thể truyền dữ liệu. Trong trường hợp của các luồng này, dữ liệu là văn bản.
+	+ Xuất/Nhập:Trong chế độ command line, "<" dùng cho chuyển hướng nhập; ">" dùng cho chuyển hướng xuất. Phải chuyển hướng vì có nhiều lúc ta muốn kết quả xuất ra màn hình được lưu lại vào một file; dữ liệu nhập vào thay vì từ bàn phím thì lại từ một file.
+ 

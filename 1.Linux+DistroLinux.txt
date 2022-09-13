@@ -1,0 +1,4 @@
+﻿- Linux không phải là hệ điều hành như Window hay IOS, nó là NHÂN của một hệ điều hành, sinh ra các phiên bản hệ điều hành khác như: Ubuntu, Kali Linux, CentOS,... Ban đầu, Linux là một hệ điều hành được tạo bởi Linus Torwalds, sau đó phát triển thành hệ điều hành mã nguồn mở.
+- Distro Linux là hệ điều hành mở, người dùng có thể sử dụng miễn phí và tự phát triển thành các distro khác.
+
+
