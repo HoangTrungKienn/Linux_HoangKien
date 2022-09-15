@@ -1,0 +1,14 @@
+Lệnh cat: Dùng để tạo file, xem nội dung file, nối file.
+	•cat file1 file2 : Xem nội dung một hoăc nhiều file.
+	 cat file1; cat file2; cat file3
+	•cat > test : Tạo file => nhập văn bản => Ctrl + D để thoát => cat test để xem nội dung file.
+	•cat /etc/passwd | more hoặc cat /etc/passwd | less : dung khi số dòng nội dung ra không vừa màn hình terminal và màn hình cuộn quá nhanh. Bấm Enter để xem các dòng tiếp theo.
+	•cat file1 >> file2 : nối nội dung file1 vào sau file2
+	•cat file1 file2 file3 > file_tong : chuyển hướng nhiều đầu ra vào một file_tong
+	•cat file1 file2 file3 | sort > file_sort : đầu ra của lệnh cat được sắp xếp và được chuyển hướng tới file_sort
+	•cat -n /etc/passwd : hiển thị số thứ tự dòng ở đầu các dòng.
+	•cat -E file : đánh dấu kết thúc dòng bằng kí tự $
+	•cat -v file : xem những kí tự không in ra được.
+	•cat -T file : hiển thị kí tự dấu tab   (^I)
+	•cat -s file : cắt bớt dòng trống, giữ lại một dòng trống 
+	•cat -b file : chỉ đánh số những dòng không trống
